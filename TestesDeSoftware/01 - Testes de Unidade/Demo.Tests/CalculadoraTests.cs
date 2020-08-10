@@ -11,13 +11,26 @@ namespace Demo.Tests
         public void Calculadora_Somar_RetornarValorSoma()
         {
             // Arrange
-            var calculador = new Calculadora();
+            var calculadora = new Calculadora();
 
             // Act
-            var resultado = calculador.Somar(2, 2);
+            var resultado = calculadora.Somar(2, 2);
 
             // Assert
             Assert.Equal(4, resultado);
+        }
+
+        [Fact]
+        public void Calculadora_Dividir_RetonarValorDivisao()
+        {
+            // Arrange
+            var calculadora = new Calculadora();
+
+            // Act
+            var resultado = calculadora.Dividir(4, 2);
+
+            // Assert
+            Assert.Equal(2, resultado);
         }
     }
 }
