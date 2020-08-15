@@ -21,4 +21,16 @@
     <ProjectReference Include="..\Features\Features.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="01 - Traits\" />
+    <Folder Include="02 - Fixtures\" />
+    <Folder Include="03 - Order\" />
+    <Folder Include="04 - Dados Humanos\" />
+    <Folder Include="05 - Mock\" />
+    <Folder Include="06 - AutoMock\" />
+    <Folder Include="07 - FluentAssertions\" />
+    <Folder Include="08 - Skip\" />
+    <Folder Include="09 - Code Coverage\" />
+  </ItemGroup>
+
 </Project>
