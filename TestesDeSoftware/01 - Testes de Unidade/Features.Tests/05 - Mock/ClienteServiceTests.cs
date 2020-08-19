@@ -21,15 +21,8 @@ namespace Features.Tests
         [Trait("Categoria", "Cliente Service Mock Tests")]
         public void ClienteService_Adicionar_DeveExecutarComSucesso()
         {
-            Assert.True(false);
-        }
-
-        [Fact(DisplayName = "Adicionar Cliente com Falha")]
-        [Trait("Categoria", "Cliente Service Mock Tests")]
-        public void ClienteService_Adicionar_DeveFalharDevidoClienteInvalido()
-        {
             // Arrange
-            var cliente = _clienteTestsBogus.GerarClienteInvalido();
+            var cliente = _clienteTestsBogus.GerarClienteValido();
             var clienteRepo = new Mock<IClienteRepository>();
             var mediatr = new Mock<IMediator>();
 
@@ -39,9 +32,16 @@ namespace Features.Tests
             clienteService.Adicionar(cliente);
 
             //Assert
-            Assert.False(cliente.EhValido());
-            clienteRepo.Verify(r => r.Adicionar(cliente), Times.Never);
-            mediatr.Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Never);
+            Assert.True(cliente.EhValido());
+            clienteRepo.Verify(r => r.Adicionar(cliente), Times.Once);
+            mediatr.Verify(m => m.Publish(It.IsAny<INotification>(), CancellationToken.None), Times.Once);
+        }
+
+        [Fact(DisplayName = "Adicionar Cliente com Falha")]
+        [Trait("Categoria", "Cliente Service Mock Tests")]
+        public void ClienteService_Adicionar_DeveFalharDevidoClienteInvalido()
+        {
+            Assert.True(false);
         }
 
         [Fact(DisplayName = "Obter Clientes Ativos")]
