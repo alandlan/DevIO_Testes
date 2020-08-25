@@ -10,9 +10,9 @@ namespace Features.Tests
     [Collection(nameof(ClienteBogusCollection))]
     public class ClienteServiceTests
     {
-        readonly ClienteBogusFixture _clienteTestsBogus;
+        readonly ClienteTestsBogusFixture _clienteTestsBogus;
 
-        public ClienteServiceTests(ClienteBogusFixture clienteTestsFixture)
+        public ClienteServiceTests(ClienteTestsBogusFixture clienteTestsFixture)
         {
             _clienteTestsBogus = clienteTestsFixture;
         }

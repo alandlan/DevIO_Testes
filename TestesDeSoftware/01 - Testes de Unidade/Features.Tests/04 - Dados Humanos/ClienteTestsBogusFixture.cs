@@ -9,8 +9,8 @@ using Xunit;
 namespace Features.Tests
 {
     [CollectionDefinition(nameof(ClienteBogusCollection))]
-    public class ClienteBogusCollection : ICollectionFixture<ClienteBogusFixture> { }
-    public class ClienteBogusFixture : IDisposable
+    public class ClienteBogusCollection : ICollectionFixture<ClienteTestsBogusFixture> { }
+    public class ClienteTestsBogusFixture : IDisposable
     {
         public Cliente GerarClienteValido()
         {
