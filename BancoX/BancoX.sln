@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoX", "BancoX\BancoX.csproj", "{4897CFEC-4F45-432E-A04C-8FA7243F50D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoX.Model", "BancoX\BancoX.Model.csproj", "{4897CFEC-4F45-432E-A04C-8FA7243F50D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
