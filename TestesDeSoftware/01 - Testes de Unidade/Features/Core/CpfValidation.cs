@@ -1,9 +1,17 @@
-﻿namespace Features.Core
+﻿using System;
+using System.Text.RegularExpressions;
+
+namespace Features.Core
 {
     public class CpfValidation
     {
         public bool EhValido(string cpf)
         {
+            var regex = new Regex(@"^\d$");
+
+            if (!regex.IsMatch(cpf))
+                return false;
+
             var multiplicador1 = new[] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             var multiplicador2 = new[] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             cpf = cpf.Trim();
