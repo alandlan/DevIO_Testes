@@ -1,0 +1,8 @@
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\bin\Debug\netcoreapp2.2\NerdStore.Core.deps.json
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\bin\Debug\netcoreapp2.2\NerdStore.Core.dll
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\bin\Debug\netcoreapp2.2\NerdStore.Core.pdb
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.csprojAssemblyReference.cache
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.AssemblyInfoInputs.cache
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.AssemblyInfo.cs
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.dll
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.pdb
