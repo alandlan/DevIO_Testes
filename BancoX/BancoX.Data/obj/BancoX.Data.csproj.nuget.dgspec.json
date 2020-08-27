@@ -1,9 +1,70 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\BancoX.Service.csproj": {}
+    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\BancoX.Data.csproj": {}
   },
   "projects": {
+    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\BancoX.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\BancoX.Data.csproj",
+        "projectName": "BancoX.Data",
+        "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\BancoX.Data.csproj",
+        "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj": {
+                "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -52,67 +113,6 @@
               "version": "[8.1.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\BancoX.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\BancoX.Service.csproj",
-        "projectName": "BancoX.Service",
-        "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\BancoX.Service.csproj",
-        "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj": {
-                "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",

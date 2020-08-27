@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\BancoX.Service.csproj",
-      "projectName": "BancoX.Service",
-      "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\BancoX.Service.csproj",
+      "projectUniqueName": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\BancoX.Data.csproj",
+      "projectName": "BancoX.Data",
+      "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\BancoX.Data.csproj",
       "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Service\\obj\\",
+      "outputPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
