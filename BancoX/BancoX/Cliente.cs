@@ -1,7 +1,7 @@
-﻿using FluentValidation;
+﻿using BancoX.Model.Core;
+using FluentValidation;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using BancoX.Model.DadosBancarios;
 
 namespace BancoX.Model
 {

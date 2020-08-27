@@ -1,4 +1,4 @@
-﻿namespace BancoX.Model
+﻿namespace BancoX.Model.DadosBancarios
 {
     public enum TipoConta
     {

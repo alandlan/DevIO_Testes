@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BancoX.Model
+﻿namespace BancoX.Model.Core
 {
     public class Documento
     {
