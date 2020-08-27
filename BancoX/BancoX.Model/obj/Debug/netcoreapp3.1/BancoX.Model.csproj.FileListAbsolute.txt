@@ -6,3 +6,11 @@ D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX\bin\Debug\netcoreapp3.1\BancoX
 D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX\obj\Debug\netcoreapp3.1\BancoX.Model.csprojAssemblyReference.cache
 D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX\obj\Debug\netcoreapp3.1\BancoX.Model.dll
 D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX\obj\Debug\netcoreapp3.1\BancoX.Model.pdb
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\bin\Debug\netcoreapp3.1\BancoX.Model.deps.json
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\bin\Debug\netcoreapp3.1\BancoX.Model.dll
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\bin\Debug\netcoreapp3.1\BancoX.Model.pdb
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\obj\Debug\netcoreapp3.1\BancoX.Model.csprojAssemblyReference.cache
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\obj\Debug\netcoreapp3.1\BancoX.Model.AssemblyInfoInputs.cache
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\obj\Debug\netcoreapp3.1\BancoX.Model.AssemblyInfo.cs
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\obj\Debug\netcoreapp3.1\BancoX.Model.dll
+D:\Desenvolvedor_io\Testes_Software\BancoX\BancoX.Model\obj\Debug\netcoreapp3.1\BancoX.Model.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX\\BancoX.Model.csproj": {}
+    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX\\BancoX.Model.csproj": {
+    "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX\\BancoX.Model.csproj",
+        "projectUniqueName": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj",
         "projectName": "BancoX.Model",
-        "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX\\BancoX.Model.csproj",
+        "projectPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\BancoX.Model.csproj",
         "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX\\obj\\",
+        "outputPath": "D:\\Desenvolvedor_io\\Testes_Software\\BancoX\\BancoX.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
