@@ -91,3 +91,6 @@ D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Ve
 D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.Tests.csproj.CopyComplete
 D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.Tests.dll
 D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.Tests.pdb
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.Tests.csprojAssemblyReference.cache
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
