@@ -1343,7 +1343,15 @@
           "Microsoft.NET.Test.Sdk": "16.2.0"
         }
       },
+      "NerdStore.Core/1.0.0": {
+        "runtime": {
+          "NerdStore.Core.dll": {}
+        }
+      },
       "NerdStore.Vendas.Domain/1.0.0": {
+        "dependencies": {
+          "NerdStore.Core": "1.0.0"
+        },
         "runtime": {
           "NerdStore.Vendas.Domain.dll": {}
         }
@@ -2048,6 +2056,11 @@
       "sha512": "sha512-3eq5cGXbEJkqW9nwLuXwtxy9B5gMA8i7HW4rN63AhAvy5UvEcQbZnve23wx/oPrkyg/4CbfNhxkBezS0b1oUdQ==",
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+    },
+    "NerdStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NerdStore.Vendas.Domain/1.0.0": {
       "type": "project",
