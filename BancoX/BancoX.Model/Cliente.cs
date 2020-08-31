@@ -7,12 +7,14 @@ namespace BancoX.Model
 {
     public class Cliente : Entity
     {
-        public string Nome { get; set; }
-        public string Sobrenome { get; set; }
-        public Documento Documento { get; set; }
-        public DateTime DataNascimento { get; set; }
-        public DateTime DataCadastro { get; set; }
-        public string Email { get; set; }
+        public string Nome { get; private set; }
+        public string Sobrenome { get; private set; }
+        public DateTime DataNascimento { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public string Email { get; private set; }
+        public string Documento { get; private set; }
+        public string DocumentoTipo { get; private set; }
+
         public bool Ativo { get; set; }
         public Conta Conta { get; set; }
 
@@ -21,24 +23,26 @@ namespace BancoX.Model
 
         }
 
-        public Cliente(Guid id, string nome,string sobrenome,Documento documento, DateTime dataNascimento, string email) 
+        public Cliente(Guid id, string nome,string sobrenome,string documento,string documentoTipo, DateTime dataNascimento, string email) 
         {
             Id = id;
             Nome = nome;
             Sobrenome = sobrenome;
             Documento = documento;
+            DocumentoTipo = documentoTipo;
             DataNascimento = dataNascimento;
             DataCadastro = DateTime.Now;
             Email = email;
             Ativo = true;
         }
 
-        public Cliente(Guid id, string nome, string sobrenome, Documento documento, DateTime dataNascimento, string email, Conta conta)
+        public Cliente(Guid id, string nome, string sobrenome, string documento,string documentoTipo, DateTime dataNascimento, string email, Conta conta)
         {
             Id = id;
             Nome = nome;
             Sobrenome = sobrenome;
             Documento = documento;
+            DocumentoTipo = documentoTipo;
             DataNascimento = dataNascimento;
             DataCadastro = DateTime.Now;
             Email = email;
@@ -58,7 +62,8 @@ namespace BancoX.Model
 
         public override bool EhValido()
         {
-            return true; 
+            ValidationResult = new ClienteValidacao().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
     

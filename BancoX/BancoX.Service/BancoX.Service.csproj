@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BancoX.Data\BancoX.Data.csproj" />
     <ProjectReference Include="..\BancoX.Model\BancoX.Model.csproj" />
   </ItemGroup>
 

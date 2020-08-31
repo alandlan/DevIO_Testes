@@ -7,9 +7,10 @@ namespace BancoX.Service
     public interface IClienteService : IDisposable
     {
         IEnumerable<Cliente> ObterTodosAtivos();
+        IEnumerable<Cliente> ObterTodos();
+        Cliente ObterPorEmail(string email);
         void Adicionar(Cliente cliente);
         void Atualizar(Cliente cliente);
-        void Remover(Cliente cliente);
         void Inativar(Cliente cliente);
     }
 }

@@ -15,7 +15,7 @@ namespace BancoX.Data
 
         void Atualizar(TEntity obj);
 
-        void Remover(Guid id);
+        void Inativar(TEntity obj);
 
         IEnumerable<TEntity> Buscar(Expression<Func<TEntity, bool>> predicate);
 

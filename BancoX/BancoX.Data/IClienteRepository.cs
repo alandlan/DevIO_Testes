@@ -5,5 +5,6 @@ namespace BancoX.Data
 {
     public interface IClienteRepository : IRepository<Cliente>
     {
+        Cliente ObterPorEmail(string email);
     }
 }
