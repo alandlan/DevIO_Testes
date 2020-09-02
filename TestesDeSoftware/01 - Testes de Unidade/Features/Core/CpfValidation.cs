@@ -7,10 +7,10 @@ namespace Features.Core
     {
         public bool EhValido(string cpf)
         {
-            var regex = new Regex(@"^\d$");
+            //var regex = new Regex(@"^\d$");
 
-            if (!regex.IsMatch(cpf))
-                return false;
+            //if (!regex.IsMatch(cpf))
+            //    return false;
 
             var multiplicador1 = new[] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             var multiplicador2 = new[] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };

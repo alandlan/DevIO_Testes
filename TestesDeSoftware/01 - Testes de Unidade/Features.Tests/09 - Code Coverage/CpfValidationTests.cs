@@ -10,7 +10,6 @@ namespace Features.Tests {
     {
         [Theory(DisplayName = "CPF Validos")]
         [Trait("Categorias","CPF Validation Tests")]
-        [InlineData("15231766607")]
         [InlineData("78246847333")]
         [InlineData("64184957307")]
         [InlineData("21681764423")]
@@ -29,7 +28,7 @@ namespace Features.Tests {
         [InlineData("1231323123123123")]
         [InlineData("233234232332")]
         [InlineData("12312312333")]
-        [InlineData("12331231se2")]
+        [InlineData("123312312")]
         [InlineData("123123123")]
         public void Cpf_ValidarMultiplosNumeros_TodosDevemSerInvalidados(string cpf)
         {
