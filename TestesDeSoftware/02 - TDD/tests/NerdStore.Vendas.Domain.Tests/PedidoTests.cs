@@ -151,5 +151,30 @@ namespace NerdStore.Vendas.Domain.Tests
             Assert.Throws<DomainException>(() => pedido.AtualizarItem(pedidoItemAtualizado));
         }
 
+        [Fact(DisplayName = "Remover Item Pedido Inexistente")]
+        [Trait("Categoria", "Vendas - Pedido")]
+        public void RemoverItemPedido_ItemNaoExisteNaLista_DeveRetornarException()
+        {
+            // Arrange
+            var pedido = Pedido.PedidoFactory.NovoPedidoRascunho(Guid.NewGuid());
+            var pedidoItemRemover = new PedidoItem(Guid.NewGuid(), "Produto Terte", 3, 100);
+
+            // Act Assert
+            Assert.Throws<DomainException>(() => pedido.RemoverItem(pedidoItemRemover));
+
+        }
+
+        [Fact(DisplayName = "Remover Item Pedido")]
+        [Trait("Categoria", "Vendas - Pedido")]
+        public void RemoverItemPedido_ItemExistente_DeveAtualizarValorTotal()
+        {
+            // Arrange
+
+            // Act
+
+            // Assert
+
+        }
+
     }
 }
