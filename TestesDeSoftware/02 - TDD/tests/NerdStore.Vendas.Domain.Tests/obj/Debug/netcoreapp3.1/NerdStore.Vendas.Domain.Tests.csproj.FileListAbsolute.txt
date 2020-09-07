@@ -96,3 +96,4 @@ D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Ve
 D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
 D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
 D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+D:\Desenvolvedor_io\Testes_Software\TestesDeSoftware\02 - TDD\tests\NerdStore.Vendas.Domain.Tests\bin\Debug\netcoreapp3.1\FluentValidation.dll
